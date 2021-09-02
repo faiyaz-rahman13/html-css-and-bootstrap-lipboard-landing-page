@@ -1,0 +1,502 @@
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+body p{
+    color: rgba(0, 0, 0, 0.315);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+}
+
+
+body a{
+    color:rgba(0, 0, 0, 0.5);
+}
+
+body a:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+
+/* header section  */
+
+
+
+#header{
+    text-align: center;
+    padding: 7% 10%;
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.logo-img img{
+    width: 8%;
+    margin-bottom: 25px;
+}
+
+#header h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+#header p{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#header .btn{
+    margin-top: 30px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Bai Jamjuree";
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.btn.btn1{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn.btn2{
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+
+
+
+/* snippet section  */
+
+
+
+
+
+
+
+#snippet{
+    margin-bottom: 60px;
+}
+
+.snippet-heading{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.snippet-heading h1{
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.snippet-heading p{
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    line-height: 1.7;
+}
+
+
+
+.row .computer-img{
+    width: 100%;
+    position: relative;
+    right: 25px;
+    
+}
+
+
+
+.row .col2{
+    padding-top: 2%;
+    padding-left: 40px;
+}
+
+.col2 h1{
+    width: 60%;
+    font-family: "Bai Jamjuree";
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.col2 p{
+    
+    font-weight: normal;
+    width: 50%;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* clipboard section  */
+
+
+
+
+#clipboard{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.clipboard-heading h1{
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.clipboard-heading p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+.clipboard-img{
+    margin-top: 100px;
+}
+
+.clipboard-img img{
+    width: 60%;
+}
+
+
+
+
+/* workflow section */
+
+
+
+
+
+
+#workflow{
+    margin-top: 100px;
+}
+
+.workflow-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.workflow-heading h1{
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+
+
+.row.list1{
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.list1 img{
+    margin-bottom: 35px;
+}
+
+.list1 h2{
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.list1 p{
+    width: 100%;
+    line-height: 2;
+    
+}
+
+
+.list2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.list2 img{
+    width: 65%;
+}
+
+
+
+
+
+
+/* ending section */
+
+
+
+#ending{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#ending h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+#ending p{
+    font-weight: normal;
+    font-size: medium;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.ending-body .btn{
+    border-radius: 25px;
+    color: white;
+    font-family: "Bai Jamjuree";
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+/* footer section  */
+
+
+
+#footer{
+    background-color: hsla(202, 11%, 66%, 0.705);
+    padding-left: 100px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#footer img{
+    width: 40%;
+}
+
+
+.social-logo{
+    margin: 10px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive  */
+
+
+
+
+
+@media(max-width:500px){
+
+
+
+    /* header */
+
+
+    #header{
+        background-image: url(../images/bg-header-mobile.png);
+    }
+    .logo-img img{
+        width: 40%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    #header h1{
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    #header p{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    #header .btn{
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+
+    /* snippet */
+
+
+
+    .snippet-heading h1{
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .snippet-heading p{
+        width: 90%;
+    }
+
+    .row .computer-img{
+        left: 15px;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .row .col2{
+        text-align: center;
+        padding-right: 40px;
+    }
+    .col2 h1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col2 p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+    /* clipboard */
+
+
+    #clipboard{
+        margin-top: 100px;
+    }
+
+    .clipboard-heading h1{
+        font-size: 1.7rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .clipboard-heading p{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .clipboard-img{
+        margin-top: 50px;
+    }
+    
+    .clipboard-img img{
+        width: 90%;
+    }
+
+
+
+    /* workflow */
+
+
+    #workflow{
+        margin-top: 80px;
+    }
+
+    .workflow-heading h1{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .workflow-heading p{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .list1 p{
+        margin-bottom: 60px;
+    }
+
+    .list2{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .list2 img{
+        width: 40%;
+        margin-bottom: 90px;
+    }
+
+
+
+    /* ending */
+
+
+    #ending{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #ending h1{
+        font-size: 1.7rem;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    #ending p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .ending-body .btn{
+        margin-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+
+
+    /* footer */
+
+
+
+    #footer{
+        text-align: center;
+        padding-left: 30px;
+    }
+    #footer img{
+        width: 20%;
+        margin-bottom: 20px;
+    }
+
+    a h6{
+        margin: 15px;
+    }
+
+    .fab {
+        margin-top: 30px;
+    }
+}
+
